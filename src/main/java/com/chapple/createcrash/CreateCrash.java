@@ -43,7 +43,7 @@ public class CreateCrash
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
         if (ModList.get().isLoaded("create")) {
-            throw new RuntimeException("Never gonna give you up, never gonna let you down. Never gonna run around and desert you.");
+            //throw new RuntimeException("Never gonna give you up, never gonna let you down. Never gonna run around and desert you.");
         }
     }
 
